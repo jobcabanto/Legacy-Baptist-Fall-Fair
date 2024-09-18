@@ -17,4 +17,6 @@ Data Flow Explained:
 - Websockets are used to refresh data every 3 seconds for near real-time updates
 - The local web server is then displayed on a TV in the church for participants to see
 
+Church Website: https://legacybaptist.church/
+
 ![alt text](https://github.com/jobcabanto/Legacy-Baptist-Fall-Fair/blob/main/lbcleaderboard/static/website_sample.png)
