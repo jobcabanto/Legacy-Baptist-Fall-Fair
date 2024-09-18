@@ -1,0 +1,129 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-bottom {
+    width: 100%; /* Set the width to 100% */
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Limit the maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    justify-content: center;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+    margin: 0;
+    line-height: 20px;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+    margin: 0;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 750px) {
+
+    .table-responsive {
+        margin: 5px;
+        padding: 5px;
+        width: 94%;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+    .big-image {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+table { 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+    font-size: 90%;
+}
+
+#T_7ea90_ tbody tr:nth-child(1) {
+    background-color: rgb(255, 211, 16);
+}
+
+#T_7ea90_ tbody tr:nth-child(2) {
+    background-color: rgb(232, 232, 232);
+}
+
+#T_7ea90_ tbody tr:nth-child(3) {
+    background-color: rgb(75, 46, 0);
+    color: white;
+}
+
+.table-wrapper {
+    display: flexbox;
+    justify-content: space-between;
+}
+
+.table-wrapper table {
+    margin: 0 10px; /* Adds some margin between the tables */
+}
+
+table tbody tr {
+    background-color: rgb(250, 233, 206);
+}
+
+table.leaderboard {
+    width: 42.5%;
+}
+
+table.adult_leaders {
+    width: 50%;
+}
+
+table.child_leaders {
+    width: 50%;
+}
+
+table tbody tr:hover {
+    background-color: #004321;
+    color: white;
+}
+
+.wide {
+    width: 90%; 
+}
