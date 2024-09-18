@@ -16,3 +16,5 @@ Data Flow Explained:
 - Using Django for the web framework, HTML and CSS are used to format the webserver to display leaderboard data
 - Websockets are used to refresh data every 3 seconds for near real-time updates
 - The local web server is then displayed on a TV in the church for participants to see
+
+![alt text](https://github.com/jobcabanto/Legacy-Baptist-Fall-Fair/blob/lbcleaderboard/static/website_sample.png)
