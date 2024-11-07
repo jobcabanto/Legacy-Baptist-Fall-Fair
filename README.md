@@ -1,4 +1,4 @@
-# Legacy Baptist Church Fall Fair Data Pipeline
+# Church Fall Fair Data Pipeline
 
 The project aimed to automate player leaderboard calculations using Google Sheets as a read/write database that could be displayed on a web server for near real-time updates. Our church used pen and paper two years ago to calculate and tally up scores. Last year, we used Google Sheets. Our annual fall fair is September 29th, 2024 where the goal is to provide near real-time updates publicly available to the church congregation. 
 
